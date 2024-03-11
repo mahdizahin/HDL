@@ -1,0 +1,5 @@
+module and_tree(input wire A,B,C,D output wire F);
+
+assign F= ((A&B)&(C&D));
+
+endmodule;
