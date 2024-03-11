@@ -1,4 +1,4 @@
-module and_chain(input wire A,B,C,D , output wire Y);
+module and_chain(input wire A,B,C,D , output wire F);
 
 assign F = (((A&B)&C)&D);
 endmodule
