@@ -1,0 +1,7 @@
+module and_2_to_1(input wire A,B,
+                  output wire Y);
+
+and(Y,A,B)
+
+endmodule
+
